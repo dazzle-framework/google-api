@@ -1,9 +1,9 @@
 {
-    "name": "dazzlesoftware/github",
+    "name": "dazzlesoftware/google",
     "type": "library",
-    "description": "Dazzle Github Package",
-    "keywords": ["dazzle", "framework", "github"],
-    "homepage": "https://github.com/dazzle-framework/github-api",
+    "description": "Dazzle Google Package",
+    "keywords": ["dazzle", "framework", "google"],
+    "homepage": "https://github.com/dazzle-framework/google-api",
     "license": "GPL-3.0-or-later",
     "require": {
         "php": "^7.3.0",
@@ -17,12 +17,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Dazzle\\Github\\": "src/"
+            "Dazzle\\Google\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Dazzle\\Github\\UnitTests\\": "tests/"
+            "Dazzle\\Google\\UnitTests\\": "tests/"
         }
     },
     "minimum-stability": "dev",
